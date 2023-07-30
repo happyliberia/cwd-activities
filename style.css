@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 249, 236);
+}
+h1,h2,h3,h4,h5{
+    font-family:'Helvetica';
+    font: weight 900;
+    font-size: 2000 ;
+    font-weight: 900;
+    -webkit-text-stroke:2px black;/*wdith and color*/
+}
+h3{
+    color:rgb(250, 235, 76);
+}
+h1{
+    color:rgb(255, 155, 25);
+}
+blockquote{
+    color:#4A4A48;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: #566246;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bolder;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color:rgb(112, 65, 31);
+    color: white;
+}
+
+responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+card-panel{
+    background-color: pink;
+}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }

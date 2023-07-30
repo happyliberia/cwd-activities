@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+    
+<body>
+    <div class="container">
+        <h1 class="center">Material Box</h1>
+        <div class="divider"></div>
+        <p>This is what a material box looks like. When you click on the image, it allows you to zoom in and take a closer look.</p>
+        <div class="br"></div>
+    <!--Material Box-->
+        <img src="the-team.jpg" alt="" class="responsive-img materialboxed">
+        <div class="divider"></div>
+        <br></br>
+        <!--Slider-->
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"class="center"><!--random image-->
+                </li>
+            </ul>
+        </div>
+        <br></br>
+        <br></br>
+    </div>
+    </div>
+    
+</body>
+
+
+
+<!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!--jQuery Initialization-->
+    <script>
+        $(document).ready(function(){
+        //materialboxed Init
+            $('.materialboxed').materialbox();
+                inDuration:1000
+                outDuration:1000
+        //slider init
+            $('.slider').slider({
+                indicators:true
+            });true
+        });
+    </script>
+
+</html>
+

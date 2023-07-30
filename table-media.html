@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUSC</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>   
+</head>
+<body>
+    <div class="container">
+        <h1 class="center">High Unite Student Council</h1>
+        <div class="card-panel indigo">
+            <span class="white-text">Need to contact our Student Council? Check out our directory below. We'd love to answer your inquiries!</span>
+        </div>  
+    </div>
+    
+    <!--Directory-->
+    <div class="container">
+        <table class="highlight-responsive-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jeoby de Ocampo</td>
+                    <td>CEO</td>
+                    <td>857.946.7510 x0280</td>
+                    <td>jeoby.deocampo@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Alexa Villaroel</td>
+                    <td>Development</td>
+                    <td>536-600-4938 x9616</td>
+                    <td>alexa.villaroel@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Erica de Belen</td>
+                    <td>Mentorship</td>
+                    <td>(463) 825-6178</td>
+                    <td>erica.debelen@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Yuri Angeles</td>
+                    <td>Finance</td>
+                    <td>206-444-3135 x18865</td>
+                    <td>yuri.angeles@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Ethan Nierras</td>
+                    <td>Connections</td>
+                    <td>819.439.3668 x37281</td>
+                    <td>ethan.nierras@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Edan Mendoza</td>
+                    <td>Marketing</td>
+                    <td>819.439.3668 x37281</td>
+                    <td>edan.mendoza@highunite.org</td>
+                </tr>
+                <tr>
+                    <td>Marta Aquino</td>
+                    <td>COO</td>
+                    <td>819.439.3668 x37281</td>
+                    <td>marta.aquino@highunite.org</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br></br>
+    <div class="row">
+        <div class="col s12 offset-s3">
+            <img class="materialboxed" width='450'src="https://images.pexels.com/photos/4734811/pexels-photo-4734811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="">
+        </div>
+    </div>
+    <!--Media CSS-->
+    <div class="container">
+        <h3 class="center">Profiles</h3>
+        <!--Slider-->
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/jeoby.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/erica.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/ethan.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/marta.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/edan.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/yuri.jpg"class="center"><!--random image-->
+                </li>
+                <li>
+                    <img src="images/alexa.jpg"class="center"><!--random image-->
+                </li>
+            </ul>
+        </div>
+    </div>
+        <br></br>
+    
+    <!--Videos-->
+    <br></br>
+    <div class="container">
+        <div class="divider"></div>
+        <h3 class="center">Who We Are</h3>
+        <section></section>
+        <div class="divider>"></div>
+        <section></section>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/t1tj4b3WO-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <br></br>
+</body>
+
+
+<!--jQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+
+    $(document).ready(function(){
+        //material-box-init
+            $('.materialboxed').materialbox();
+                inDuration:1000,
+                outDuration:1000
+            });
+        //slider-init
+        $('.slider').slider({
+                indicators:true,
+                height:550
+            });true
+</script>
+
+</html>

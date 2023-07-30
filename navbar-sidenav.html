@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/0597e1798a.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="navbar-sidebar.css" /> 
+        <title>Welcome</title>
+</head>
+
+<body>
+<!--Extended Navbar with Tabs-->
+    <nav class="nav-extended deep blue darken-4">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo right">
+                <i class="fa-brands fa-pagelines"></i>
+            </a>
+            <ul id="nav-mobile" class="left.hide-on-med-and-down">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+                <li>
+                    <a href="">Who We Are</a>
+                </li>
+            </ul>                    
+        </div>
+        <div class="nav-content brown lighten-2">
+            <ul class="tabs tabs-transparent center">
+                <li class="tab">
+                    <a href="">Enlighten</a>
+                </li>
+                <li class="tab">
+                    <a href="">Empower</a>
+                </li>
+                <li class="tab">
+                    <a href="">Empathize</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="images/welcome-seekers-1.jpg">
+    </div>
+</div>
+<br><br>
+<br><br>
+</body>
+
+<!--jQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.tabs').tabs();
+        $('.parallax').parallax();
+    });
+</script>
+</html>
